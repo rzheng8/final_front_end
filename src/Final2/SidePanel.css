@@ -1,0 +1,7 @@
+.CDBSidebarMenuItem:hover {
+  background-color: rgb(255, 255, 255); /* Change the background color of the menu item on hover */
+}
+
+.CDBSidebarMenuItem:hover .nav-text {
+  color: rgb(243, 0, 0); /* Change the text color of the menu item on hover */
+}

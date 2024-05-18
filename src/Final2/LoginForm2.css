@@ -1,0 +1,65 @@
+/* loginform.css */
+
+body {
+    background-color: rgb(242, 238, 238); /* Full black background */
+    color: #fff;
+    margin: 0;
+  }
+  
+  #loginForm {
+    /* display:grid; */
+    justify-content: center;
+    place-items: center; 
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(6, 6, 6, 0.5); /* Semi-transparent gray box */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: calc(100% - 40px); /* Adjusted width for smaller screens */
+  }
+  
+  input, select, button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  
+  input::placeholder {
+    color: #bbb; /* Light gray placeholder text */
+  }
+  
+  input:focus, select:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  h2, h4 {
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #6200ee;
+    border-color: #6200ee;
+    border-radius: 13px;
+    padding: 10px 20px; /* Adjust padding to change the size */
+    font-size: 16px; /* Adjust font size to change the size of the text */
+  }
+  
+  .btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+  }
+  

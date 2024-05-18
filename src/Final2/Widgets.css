@@ -1,0 +1,31 @@
+/* .widget {
+    display: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+
+  .widget1 {
+    display: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+  } */
+
+  .widget {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  
+  .col-centered {
+    align-content: center;
+  }
